@@ -1,0 +1,14 @@
+Source: java-env-sh
+Section: java
+Priority: optional
+Maintainer: Robert Lange <rlange@corusa.net>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+
+Package: java-env-sh
+Architecture: all
+Depends: default-jre-headless | default-jre | default-jdk
+Description: Shell configuration for Java
+ This package provides a sourceable shell script that configures the
+ Java environment variables for compatibility with Java applications
+ that require them to be set.
